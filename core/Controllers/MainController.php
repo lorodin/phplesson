@@ -25,7 +25,7 @@ class MainController {
 
         $validation = [
             'name' => $this->validateField($fields['name'] ?? '', 'string'),
-            'pin' => $this->validateField($fields['pin'] ?? '', 'password'),
+            'pin' => $this->validateField($fields['pin'] ?? '', 'pin'),
             'email' => $this->validateField($fields['email'] ?? '', 'email')
         ];
 
