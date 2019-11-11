@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, serif;
+}
+
+*{
+    transition: .25s;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+.form .controls-group {
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.errors-list li {
+    color: red;
+}
+
+.form .controls-group input {
+    padding: 0.2em;
+    border-radius: 0.2em;
+    border: 1px solid #999;
+    width: 100%;
+}
+
+.form .controls-group input[type='submit'] {
+    padding: 0.3em;
+    width: 100%;
+    margin: 1em auto;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.form .controls-group input[type='submit']:hover {
+    opacity: 1;
+}
+
+.form .controls-group label {
+    width: 20%;
+}
